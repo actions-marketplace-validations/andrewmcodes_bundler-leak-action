@@ -1,0 +1,11 @@
+name: "Bundler Leak Action"
+description: "GitHub Action for running bundler-leak"
+author: "Andrew Mason <andrewmcodes@protonmail.com>"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+env:
+  GITHUB_TOKEN: secrets.GITHUB_TOKEN
+branding:
+  icon: "shield"
+  color: "gray-dark"
